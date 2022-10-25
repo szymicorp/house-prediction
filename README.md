@@ -1,8 +1,8 @@
 # House prediction ML project
 ### Table of Contents  
-[Cloning](#cloning)
-<a name="cloning"/>
-## Cloning
+[Setup](#setup)
+<a name="setup"/>
+## Setup
 1. Clone project git repo
 ```shell
 git clone git@github.com:s20551/house-prediction.git
@@ -11,11 +11,15 @@ git clone git@github.com:s20551/house-prediction.git
 ```shell
 virtualenv venv
 ```
-3. Install requirements
+3. Activate your virtual environment
+```shell
+source venv/bin/activate
+```
+4. Install requirements
 ```shell
 pip install -r requirements.txt
 ```
-4. Pull dvc data files
+5. Pull dvc data files
 ```shell
 dvc pull
 ```
